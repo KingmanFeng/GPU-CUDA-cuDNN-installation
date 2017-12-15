@@ -1,0 +1,14 @@
+apt-cache search nvidia | grep -P '^nvidia-[0-9]+\s' #search GPU driver
+sudo apt-get install nvidia-XXX # install gpu driver
+download cuda and installation guide 
+before verify ,sudo apt install nvidia cuda toolkit
+after nvcc -V ,it will show below:
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2015 NVIDIA Corporation
+Built on Tue_Aug_11_14:27:32_CDT_2015
+Cuda compilation tools, release 7.5, V7.5.17
+Then install cudnn 
+1.download
+2.dpkg depend on guide
+3.vim cudnn.h ''to <>
+4.test passed
