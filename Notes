@@ -12,3 +12,4 @@ Then install cudnn
 2.dpkg depend on guide
 3.vim cudnn.h ''to <>
 4.test passed
+tensorflow1.4 need cudnnv6
